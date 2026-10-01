@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# secrets / local settings (never commit)
+.env
+.env.*
+!.env.example
+
+# inputs, outputs and virtual environments of each experiment
+input/
+output/
+out/
+out_elevenlabs/
+prompts/
+.venv-*/
+repo/
+
+# generated or third-party media (not part of this repository)
+*.wav
+*.mp3
+*.mp4
+*.mov
+*.png
+*.jpg
+*.jpeg
